@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: Georgia, Times, serif;
+  font-size: 62.5%;
+}
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(..//img/fondoAA.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  margin-top: 60px;
+  text-decoration: none;
+  font-size: 65px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 15px;
+}
+.calculadora {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  font-size: 2rem;
+  border: 1px solid grey;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.calculadora-displey {
+  padding: 25px 15px;
+  width: 100%;
+  text-align: right;
+  border: 1px solid grey;
+  overflow: auto;
+}
+.calculadora-key {
+  display: flex;
+  width: 100%;
+}
+
+.contenido {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  /**/
+}
+.contenido-boton {
+  width: 25%;
+  padding: 15px 0;
+  text-align: center;
+  cursor: pointer;
+  background: #fff;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.contenido-boton:hover {
+  filter: brightness(80%);
+  transition: filter 0.25s;
+}
+
+.contenido-boton.m {
+  background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+
+.contenido-boton.large {
+  width: 50%;
+}
+.contenido-boton.d {
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+}
