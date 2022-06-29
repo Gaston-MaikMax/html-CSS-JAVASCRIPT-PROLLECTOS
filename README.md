@@ -1,4 +1,4 @@
-# html-CSS-JAVASCRIPT-PROLLECTOS
+# html-CSS-JAVASCRIPT-PROYECTOS
 PROYECTOS ECHOS 
 1) calculadora (una calculadora usando html,css,javascript)
 
