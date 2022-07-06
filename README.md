@@ -19,3 +19,8 @@ PROYECTOS ECHOS
 5) barra de carga 
 
 ![image](https://user-images.githubusercontent.com/105935224/177341871-1d2ba384-c8d8-4c8d-9fd2-939a5d8f982a.png)
+
+6) barra de busqueda
+
+![image](https://user-images.githubusercontent.com/105935224/177597539-1429a0f6-20c3-4b3d-a2a9-35b6a52dd093.png)
+
