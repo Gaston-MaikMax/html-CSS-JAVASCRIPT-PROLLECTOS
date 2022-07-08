@@ -24,3 +24,6 @@ PROYECTOS ECHOS
 
 ![image](https://user-images.githubusercontent.com/105935224/177597539-1429a0f6-20c3-4b3d-a2a9-35b6a52dd093.png)
 
+7) Cartas rotatorias 
+![image](https://user-images.githubusercontent.com/105935224/178035035-b1302e8d-0bb1-46e7-a14e-ae0dbe0dcd9f.png)
+
