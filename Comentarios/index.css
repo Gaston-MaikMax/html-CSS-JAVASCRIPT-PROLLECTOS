@@ -1,0 +1,102 @@
+:root{
+ --border-color: #558bff;
+
+}
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+ padding: 0;
+background-color: rgb(16, 21, 75);
+}
+
+.comentario-container{
+ width: 800px;
+ margin: 100px auto;
+ color: white;
+}
+
+.comentario-container > .comentario{
+ margin-bottom: 10px;
+}
+.comentario-container .comentario {
+display: flex;
+}
+.comentario-container .comentario .line{
+ position: relative;
+ width: 10px;
+ height: 50%;
+ border-left: solid 1px var(--border-color);
+ border-bottom: solid 1px var(--border-color);
+border-radius:  0 0 0 8px;
+}
+ 
+.comentario-container .comentario .comentario-wrapper {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
+.comentario-container .comentario .comentario-wrapper .contenido{
+ width: 100%;
+ display: flex;
+ border: solid 1px var(--border-color);
+ padding: 10px;
+ border-radius: 3px;
+background-color: rgb(6, 15, 46);
+}
+.comentario-container .comentario .comentario-wrapper .contenido img {
+
+ border-radius: 50px;
+width: 50px;
+height: 50px;
+ padding-right: 10px;
+}
+.comentario-container .comentario .comentario-wrapper .contenido .comentario-info{
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+.comentario-container .comentario .comentario-wrapper .contenido .comentario-info .header .username{
+ font-weight: bold;
+
+}
+.comentario-container .comentario .comentario-wrapper .contenido .comentario-info .header .date {
+ color: #999;
+}
+
+.comentario-container .comentario .comentario-wrapper .contenido .comentario-info .actions{
+ display: flex;
+ gap: 5px;
+}
+.comentario-container .comentario .comentario-wrapper .contenido .comentario-info .actions  button{
+ border: none;
+ background-color: transparent;
+ color: var(--border-color);
+ padding: 5px;
+ border-radius: 3px;
+}
+.comentario-container .comentario .comentario-wrapper .contenido .comentario-info .actions button:hover {
+ color: white;
+ background-color:var(--border-color);
+}
+
+.comentario-container .comentario .replice{
+ padding-top: 10px;
+ position: relative;
+ padding-left: 35px;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.comentario-container .comentario .replice::before{
+ content: '';
+ position: absolute;
+ background-color: var(--border-color);
+width: 1px;
+top: 0;
+height: calc(100% - 53px);
+}
+.comentario-container .comentario.comentario-wrapper .contenido{
+
+}
