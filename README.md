@@ -45,3 +45,7 @@ PROYECTOS ECHOS
 
 ![image](https://user-images.githubusercontent.com/105935224/182654182-778e55d8-2e2a-46b0-a943-4505722999c3.png)
 
+12) pila de personas
+
+![image](https://user-images.githubusercontent.com/105935224/182902503-40c20d54-e122-4842-a33b-53a746a930bf.png)
+
